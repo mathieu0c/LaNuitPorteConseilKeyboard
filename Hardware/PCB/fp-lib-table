@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HotSwapp_1U")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Keyboard_Library/HotSwapp_1U.pretty")(options "")(descr ""))
+)
