@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -380,7 +395,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -457,8 +472,18 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -477,12 +502,24 @@
       "Key_1U"
     ],
     [
+      "21016d7c-fd8b-4404-8ef7-6ca90f156ddd",
+      "Temperature"
+    ],
+    [
       "4abdfb61-3b64-4fd4-923e-3cc754423ef0",
       "Supply"
     ],
     [
       "70bf9860-66d0-4197-8a28-c71672051aa3",
       "Programming"
+    ],
+    [
+      "ac97498d-2051-444b-8e34-d771fa4cf1f1",
+      "IMU"
+    ],
+    [
+      "5826a8b9-a512-49e5-9762-3dc7f408520c",
+      "MCU"
     ]
   ],
   "text_variables": {}
