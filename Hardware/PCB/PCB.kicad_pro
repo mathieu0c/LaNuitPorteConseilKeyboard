@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.0,
+          "height": 2.9,
+          "width": 3.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -173,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.5
       ],
@@ -520,6 +521,22 @@
     [
       "5826a8b9-a512-49e5-9762-3dc7f408520c",
       "MCU"
+    ],
+    [
+      "fd9ec7b9-711c-46f0-80ac-a30badd88661",
+      "OLED"
+    ],
+    [
+      "c429b47e-7556-484b-b844-f8d6007e758d",
+      "Multimeter"
+    ],
+    [
+      "93094d67-ba34-4283-ae95-652375c1085f",
+      "I2C_LevelShifter"
+    ],
+    [
+      "6da374d4-8701-4bc4-94f2-444114aeeed0",
+      "UART"
     ]
   ],
   "text_variables": {}
