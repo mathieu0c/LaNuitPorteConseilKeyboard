@@ -175,6 +175,9 @@
         0.0,
         0.2,
         0.25,
+        0.3,
+        0.35,
+        0.4,
         0.5
       ],
       "via_dimensions": [
@@ -531,12 +534,20 @@
       "Multimeter"
     ],
     [
-      "93094d67-ba34-4283-ae95-652375c1085f",
-      "I2C_LevelShifter"
+      "f14bce52-ded6-4adb-9ae9-67f74a5198d1",
+      "I2C_LevelShifter1"
     ],
     [
-      "6da374d4-8701-4bc4-94f2-444114aeeed0",
-      "UART"
+      "e40f7568-1e55-4cf4-9f9f-00926ba3f2f3",
+      "UART_Slot"
+    ],
+    [
+      "9009fa46-0126-42af-b75e-af62183ebdb0",
+      "USB_Slot"
+    ],
+    [
+      "10818d9a-65b8-46a4-bb9c-7776114cc710",
+      "LevelShifter"
     ]
   ],
   "text_variables": {}
