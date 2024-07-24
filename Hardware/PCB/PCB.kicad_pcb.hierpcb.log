@@ -1,0 +1,13 @@
+Plugin v0.0.1 running on KiCad 7.0.8+1 and Python 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0] on linux.
+
+├─ Temperature
+├─ Key_1U
+├─ Supply
+├─ MCU
+├─ Programming
+├─ USB_Slot
+├─ IMU
+├─ Multimeter
+├─ UART_Slot
+├─ OLED
+│  ├─ LevelShifter
