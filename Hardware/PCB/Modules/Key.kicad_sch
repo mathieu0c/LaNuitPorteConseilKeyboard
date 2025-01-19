@@ -811,7 +811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "474c1297-bd21-42cf-8b4b-5d37553c0da3")
-		(property "Reference" "D1"
+		(property "Reference" "D11"
 			(at 63.5 61.595 90)
 			(effects
 				(font
@@ -883,7 +883,7 @@
 		(instances
 			(project "PCB"
 				(path "/fd8c8265-4947-4b90-b980-57cac1b7867b/416eee54-53c7-4fdf-9784-49e18a35f298"
-					(reference "D1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -968,7 +968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0d49c1d-3ad2-4c44-8d8f-569baf59d5af")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -1029,7 +1029,7 @@
 		(instances
 			(project "PCB"
 				(path "/fd8c8265-4947-4b90-b980-57cac1b7867b/416eee54-53c7-4fdf-9784-49e18a35f298"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)

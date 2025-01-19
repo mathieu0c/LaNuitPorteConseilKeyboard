@@ -1454,10 +1454,89 @@
 			)
 			(uuid "94efb842-2c28-4e08-8221-2732000d8ccf")
 		)
+		(pin "V_{CURRENT}" output
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72f363c3-4ec0-4632-8c58-3aabdd4474aa")
+		)
 		(instances
 			(project "PCB"
 				(path "/fd8c8265-4947-4b90-b980-57cac1b7867b"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 96.52)
+		(size 12.7 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52d91172-bba4-490b-ba39-d55eb77a1001")
+		(property "Sheetname" "EEPROM"
+			(at 194.8684 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modules/EEPROM.kicad_sch"
+			(at 208.8646 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ADC_OUT" output
+			(at 201.93 114.3 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97fef8b0-b0eb-4680-b009-4a77fa473ff1")
+		)
+		(pin "GND" output
+			(at 198.12 114.3 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e40f411b-0f8f-481b-9da2-b05b3ebb733c")
+		)
+		(pin "+5V" input
+			(at 198.12 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0585c43-795e-4b79-9874-85bdfc81ef12")
+		)
+		(instances
+			(project "PCB"
+				(path "/fd8c8265-4947-4b90-b980-57cac1b7867b"
+					(page "11")
 				)
 			)
 		)
